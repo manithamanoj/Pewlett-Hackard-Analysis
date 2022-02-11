@@ -50,6 +50,8 @@ There are duplicate entries for some employees because they have switched titles
 
 Next, we write another query in the Employee_Database_challenge.sql file to retrieve the number of employees by their most recent job title who are about to retire.
 
+### Mentorship Eligibility table
+
 <img width="725" alt="Screen Shot 2022-02-11 at 2 07 18 PM" src="https://user-images.githubusercontent.com/72629108/153670881-456fbcc4-0b90-4094-b014-03eb864986a5.png">
 
 
