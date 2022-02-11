@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 SQL Analysis
   
-# INTRODUCTION  
+## Introduction
   SQL is one of the most used languages in Data Analysis. Its ability to organize and query data, especially on a large scale, makes SQL knowledge a highly sought-after skill in the workforce. In this challenge we are  working for  Pewlett Hackard.
  
 Here we use  our SQL skills to
