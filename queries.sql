@@ -141,6 +141,7 @@ FROM retirement_info AS ri
 LEFT JOIN dept_emp AS de
 ON  ri.emp_no=de.emp_no
 WHERE de.to_date = ('1999-01-01');
+-- not  returning anything if we  use '9999-01-01' pattern. So I checked the data_emp.csv and didN't find '9999-01-01' in to_date column
 
 
 
