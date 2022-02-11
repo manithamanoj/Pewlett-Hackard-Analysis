@@ -23,9 +23,9 @@ determine the number of retiring employees per title and identify employees who 
 
 
 
-### The Number of Retiring Employees by Title 
+###  Number of Retiring Employees by Title 
 
-   We use SQL queries to create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955.
+   We use SQL queries to create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. See the table given below
 ### Retirement Titles table
 
 <img width="655" alt="Screen Shot 2022-02-11 at 2 05 21 PM" src="https://user-images.githubusercontent.com/72629108/153670481-7fd98ab3-8d96-4004-a34c-b1f871a4a792.png">
@@ -35,7 +35,7 @@ determine the number of retiring employees per title and identify employees who 
 
 There are duplicate entries for some employees because they have switched titles over the years.
 
- Then we use the DISTINCT ON statement to create a table that contains the most recent title of each employee, because some employees may have multiple titles in the database. Use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Also, we exclude those employees who have already left the company. 
+ Then we use the DISTINCT ON statement to create a table that contains the most recent title of each employee, because some employees may have multiple titles in the database. Use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Also, we exclude those employees who have already left the company. See the table given below
 
  ### Unique Titles table
  
@@ -58,11 +58,11 @@ Next, we write another query in the Employee_Database_challenge.sql file to retr
 
 ## Summary
 From the retiring_titles.csv we see that almost 50,000 employees who are about to retire are senior staffs. So, company can find and prepare eligible employees for next level positions.
-72,458 positions will need to be filled as the "silver tsunami" begins to make an impact. The company can plan on hire employees to fill these positions. 
+72,458 positions will need to be filled as the "silver tsunami" begins to make an impact. The company can plan to hire employees to fill these positions. 
 1549 employees are eligible to participate in a mentorship program. This data would give a better idea to plan on the mentorship program when new team members are hired.
 
 Suggestion:
 
-  If we can prepare a retirement table with number of years, designation and salary of each employee in this company, they could plan for an ideal retirement package for the employees.
+  If we can prepare a retirement table with number of years, designation and salary of each employee in the company, they could plan for an ideal retirement package for the employees.
  
 
