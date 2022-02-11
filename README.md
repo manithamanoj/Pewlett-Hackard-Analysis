@@ -23,7 +23,8 @@ determine the number of retiring employees per title and identify employees who 
 
 
 
-The Number of Retiring Employees by Title 
+### The Number of Retiring Employees by Title 
+
    We use SQL queries to create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955.
 ### Retirement Titles table
 
