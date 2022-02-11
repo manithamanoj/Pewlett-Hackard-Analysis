@@ -27,29 +27,31 @@ The Number of Retiring Employees by Title
    We use SQL queries to create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955.
 ### Retirement Titles table
 
-<img width="679" alt="Screen Shot 2022-02-10 at 6 01 40 PM" src="https://user-images.githubusercontent.com/72629108/153668694-65b39f28-6169-425d-a9f8-5867b1f44cb8.png">
+<img width="655" alt="Screen Shot 2022-02-11 at 2 05 21 PM" src="https://user-images.githubusercontent.com/72629108/153670481-7fd98ab3-8d96-4004-a34c-b1f871a4a792.png">
 
 
-<img width="778" alt="Screen Shot 2022-02-10 at 6 04 49 PM" src="https://user-images.githubusercontent.com/72629108/153668376-317aafba-6021-4cd2-b270-b102e224df7a.png">
+
+
 There are duplicate entries for some employees because they have switched titles over the years.
 
  Then we use the DISTINCT ON statement to create a table that contains the most recent title of each employee, because some employees may have multiple titles in the database. Use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Also, we exclude those employees who have already left the company. 
 
  ### Unique Titles table
  
- <img width="578" alt="Screen Shot 2022-02-10 at 6 02 30 PM" src="https://user-images.githubusercontent.com/72629108/153668737-f4cb8be9-7856-491d-81b9-500cdc4bde89.png">
-
+ <img width="471" alt="Screen Shot 2022-02-11 at 2 05 55 PM" src="https://user-images.githubusercontent.com/72629108/153670549-5926c94a-c329-4bd7-b819-1831e21baee4.png">
 
 
 ### Retiring Titles table
 
-<img width="263" alt="Screen Shot 2022-02-10 at 6 04 07 PM" src="https://user-images.githubusercontent.com/72629108/153668458-90f7abb9-4b95-4677-b9f7-56d2eab7ba83.png">
+<img width="214" alt="Screen Shot 2022-02-11 at 2 06 23 PM" src="https://user-images.githubusercontent.com/72629108/153670637-3afa6b88-43d5-43db-87d7-e5cb74aec6a5.png">
+
 
 ## The Employees Eligible for the Mentorship Program
 
 Next, we write another query in the Employee_Database_challenge.sql file to retrieve the number of employees by their most recent job title who are about to retire.
 
-<img width="778" alt="Screen Shot 2022-02-10 at 6 04 49 PM" src="https://user-images.githubusercontent.com/72629108/153669006-e21c5986-dc7a-47c8-9bc1-e1f39932ea66.png">
+<img width="725" alt="Screen Shot 2022-02-11 at 2 07 18 PM" src="https://user-images.githubusercontent.com/72629108/153670881-456fbcc4-0b90-4094-b014-03eb864986a5.png">
+
 
 ## Summary
 From the retiring_titles.csv we see that almost 50,000 employees who are about to retire are senior staffs. So, company can find and prepare eligible employees for next level positions.
